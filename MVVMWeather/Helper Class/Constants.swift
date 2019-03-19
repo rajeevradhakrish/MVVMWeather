@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Constants
 {
@@ -28,5 +29,9 @@ struct Constants
     
     struct cellIdentifier {
         
+    }
+    
+    struct Theme {
+        static var color = UIColor(red: 30/255, green: 166/255, blue: 198/255, alpha: 1)
     }
 }
